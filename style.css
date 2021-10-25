@@ -1,0 +1,25 @@
+.parent{
+    width: 600px;
+    height: 200px;
+    background-color: red;
+
+
+}
+.child{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    color: black;
+
+    margin-bottom: 20px;
+    display:inline-block;
+}
+
+@media screen and (max-width : 600px){
+    .child{
+        width:90%;
+    }
+    .parent{
+        height:420px;
+    }
+}
